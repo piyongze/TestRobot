@@ -1,0 +1,9 @@
+*** Settings ***
+Library           Selenium2Library
+
+*** Test Cases ***
+Test Open Brower
+
+*** Keywords ***
+Test Open Brower And Baidu
+    Open Browser    http://www.baidu.com    Chrome
